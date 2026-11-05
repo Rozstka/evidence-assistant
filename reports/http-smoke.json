@@ -1,0 +1,6 @@
+{
+  "project": "evidence-assistant",
+  "transport": "real HTTP / uvicorn",
+  "retrieval": "cited answer + abstention",
+  "status": "passed"
+}

@@ -1,0 +1,46 @@
+{
+  "project": "evidence-assistant",
+  "model": "qwen2.5:3b",
+  "status_code": 200,
+  "result": {
+    "answer": "5 business days",
+    "citations": [
+      "f74b525f286985a9c1734a3c:0"
+    ],
+    "status": "answered",
+    "sources": [
+      {
+        "id": "f74b525f286985a9c1734a3c:0",
+        "document_id": "f74b525f286985a9c1734a3c",
+        "title": "Synthetic returns policy",
+        "text": "SYNTHETIC DEMO COMPANY. Returns are accepted within 30 days of delivery. Refunds are processed within 5 business days after inspection. Contact support with your order number. This policy is fictional.",
+        "score": 1.081348
+      }
+    ],
+    "trace": [
+      {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "How long do refunds take?"
+        },
+        "source_ids": [
+          "f74b525f286985a9c1734a3c:0"
+        ]
+      },
+      {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "SYNTHETIC returns"
+        },
+        "source_ids": [
+          "f74b525f286985a9c1734a3c:0",
+          "15986616b8f26197b7a9ac7b:0",
+          "cb4c6b6fb5724047eb0c50cb:0"
+        ]
+      }
+    ],
+    "mode": "ollama",
+    "run_id": "77d5ba0a-2e6c-443b-8e1c-2c1aa73b0372"
+  },
+  "seconds": 12.62
+}

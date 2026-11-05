@@ -1,0 +1,55 @@
+{
+  "scope": "5 questions, 3 fictional documents, 1 unrelated question",
+  "recall_at_4": 1.0,
+  "hit_rate_at_1": 1.0,
+  "unrelated_abstained": true,
+  "cases": [
+    {
+      "question": "How long do refunds take?",
+      "expected_document": 0,
+      "top_ids": [
+        "0:0"
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true
+    },
+    {
+      "question": "Express shipping delivery?",
+      "expected_document": 1,
+      "top_ids": [
+        "1:0",
+        "0:0"
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true
+    },
+    {
+      "question": "When do password resets expire?",
+      "expected_document": 2,
+      "top_ids": [
+        "2:0"
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true
+    },
+    {
+      "question": "Are returns accepted?",
+      "expected_document": 0,
+      "top_ids": [
+        "0:0"
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true
+    },
+    {
+      "question": "Does support ask for authentication codes?",
+      "expected_document": 2,
+      "top_ids": [
+        "2:0",
+        "0:0"
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true
+    }
+  ]
+}

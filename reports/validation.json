@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-05",
+  "unique_tests": 18,
+  "sqlite": "passed",
+  "postgresql_16": "passed",
+  "real_http": "passed",
+  "docker": "not_run_no_docker",
+  "github_ci": "not_run_local_changes",
+  "python": "3.14",
+  "linux_python312_dependency_resolution": "passed"
+}
